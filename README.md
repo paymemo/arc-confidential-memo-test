@@ -10,7 +10,7 @@ This repo contains an end-to-end test for carrying out transactions with confide
 
 ## Actors
 
-**Subscriber**: Who pays for service by sending a USDC transfer with an encrypted memo targeting the service prividers address
+**Subscriber**: Who pays for service by sending a USDC transfer with an encrypted memo targeting the service prividers address.
 
 **ServiceProvider**: Who delivers service to the **Subscriber** by reading the memo tx, decrypts the memo and delivering the service to the end user.
 
