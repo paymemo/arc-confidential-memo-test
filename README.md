@@ -10,7 +10,7 @@ Data subscription where the transaction details is encrypted as the memo sent al
 
 **Subscriber**: Who pays for data by sending a USDC transfer with an encrypted memo targeting the service prividers address
 
-**ServiceProvider**: Who delivers data to the subscriber by reading the memo tx, decrypts the memo and delivering the service ton the end user.
+**ServiceProvider**: Who delivers data to the subscriber by reading the memo tx, decrypts the memo and delivering the service to the end user.
 
 *Note: In an actual production environment, **Subscriber** and **ServiceProvider** exists in separate environments*.
 
