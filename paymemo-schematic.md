@@ -55,6 +55,6 @@
                             │
                             ▼
                  ┌─────────────────────┐
-                 │   Airtime / Data   │
-                 │ Electricity / etc. │
+                 │   Airtime / Data    │
+                 │ Electricity / etc.  │
                  └─────────────────────┘
