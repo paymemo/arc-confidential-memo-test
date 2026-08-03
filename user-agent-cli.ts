@@ -214,7 +214,6 @@ async function main() {
         `${arcTestnet.blockExplorers.default.url}/tx/${hash}`,
     );
     console.log("Block:", receipt.blockNumber.toString());
-    console.log("Decoded memo events:", events);
 
     const memoEvent = parseAbiItem(
         "event Memo(address indexed sender,address indexed target,bytes32 callDataHash,bytes32 indexed memoId,bytes memo,uint256 memoIndex)",
@@ -233,9 +232,6 @@ async function main() {
             `Expected one Memo log for memoId, found ${matchingLogs.length}`,
         );
     }
-
-    console.log("Memo events matching memoId:", matchingLogs);
-
 
     updateServiceRequest(memoId, hash, receipt.blockNumber);
     fulfillServiceRequest(memoId).catch((error) => {
