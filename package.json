@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/paymemo/arc-confidential-memo-test#readme",
   "dependencies": {
+    "@circle-fin/smart-contract-platform": "^10.8.0",
     "@inquirer/prompts": "^8.5.2",
     "@noble/curves": "^2.2.0",
     "dotenv": "^17.4.2",
